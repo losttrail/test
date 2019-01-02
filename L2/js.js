@@ -29,3 +29,24 @@ switch (n) {
         console.log("mb 10!");
         break;   
 }
+
+let n = 10;
+
+// while (n < 20) { //test then do
+//     console.log(n);
+//     n++;
+// }
+
+// do { //do then test
+//     console.log(n);
+//     n++;
+// }
+// while (n < 20);
+
+for(let i = 0; i < 10; i++) {
+    if (i == 7) {
+        // break;
+        continue;
+    }
+    console.log(i);
+}
